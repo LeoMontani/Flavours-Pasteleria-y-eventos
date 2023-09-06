@@ -1,3 +1,5 @@
+const path = require("path");
+
 function goIndex(req, res){
   const filePath = path.join(__dirname, '../../../Client/index.html')
   res.sendFile(filePath);

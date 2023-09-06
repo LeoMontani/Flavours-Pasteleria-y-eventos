@@ -10,17 +10,39 @@ html {
   width: 100%;
   display: flex;
   justify-content: space-evenly;
-  height: 80px;
+  height: auto;
 }
 .search-bar-container {
+  margin-top: 20px;
+  margin-left: 20px;
   width: 25%;
 }
 .title-container {
+  margin-top: 20px;
+  margin-left: 180px;
   width: 25%;
+  text-align: center;
 }
 .store-container {
+  margin-top: 20px;
   width: 25%;
 }
 .personal-container {
   width: 25%;
+  margin-top: 20px;
+}
+.search-bar-container .search-bar {
+  width: 100px;
+  border: 1px solid #141313;
+  border-radius: 5px;
+}
+.search-bar-container .facebook {
+  margin-left: 10px;
+  text-decoration: none;
+  color: #000000;
+}
+.search-bar-container .instagram {
+  margin-left: 6px;
+  text-decoration: none;
+  color: #000000;
 }
