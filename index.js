@@ -1,9 +1,12 @@
+require("dotenv").config();
+
 const express = require("express");
 const app = express();
-const mongoose = require("mongoose");
 const path = require("path");
+const PORT = process.env.PORT || 4040;
 
-const navigationController = require("./Server/Controllers/navigationController.js/navigationController");
+const navigationController = require("./Server/Controllers/navigationController");
+const userController = require("./Server/Controllers/userController");
 
 //middlewares
 app.use(express.json());
@@ -17,6 +20,6 @@ app.get("/login", navigationController.goLogin);
 //endpoints que administrarn productos
 app.get("/api/productos", );
 
-app.listen(8080, () => {
-  console.log("Servidor corriendo en el puerto 8080");
+app.listen(PORT, () => {
+  console.log("Servidor corriendo en el puerto " + PORT);
 });
