@@ -17,6 +17,12 @@ html {
   margin-left: 20px;
   width: 25%;
 }
+.search-bar-container span {
+  background-image: url(./Assets/Icons/search.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
 .title-container {
   margin-top: 20px;
   margin-left: 180px;
