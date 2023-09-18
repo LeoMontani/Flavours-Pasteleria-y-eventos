@@ -18,7 +18,6 @@ app.get("/home", navigationController.goIndex);
 app.get("/login", navigationController.goLogin);
 app.post("/login", userController.create);
 
-
 //endpoints que administrarn productos
 app.get("/api/productos", );
 
