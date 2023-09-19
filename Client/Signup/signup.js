@@ -1,4 +1,4 @@
-const loginForm = document.getElementById("login-form");
+const signupForm = document.getElementById("signup-form");
 
 let resultadoSignup;
 
@@ -18,9 +18,9 @@ const signup = async (email, password) => {
   alert("Cuenta registrada");
 };
 
-loginForm.addEventListener("submit", async (e) => {
+signupForm.addEventListener("submit", async (e) => {
   e.preventDefault();
-  const email = loginForm["email"].value;
-  const contraseña = loginForm["contraseña"].value;
+  const email = signupForm["email"].value;
+  const contraseña = signupForm["contraseña"].value;
   await signup(email, contraseña);
 });

@@ -15,8 +15,8 @@ app.use(express.static(path.join(__dirname, "./Client")));
 
 //endpoints que administran archivos
 app.get("/home", navigationController.goIndex);
-app.get("/login", navigationController.goLogin);
-app.post("/login", userController.create);
+app.get("/signup", navigationController.goLogin);
+app.post("/signup", userController.create);
 
 //endpoints que administrarn productos
 app.get("/api/productos", );
