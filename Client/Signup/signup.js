@@ -5,7 +5,7 @@ let resultadoSignup;
 const signup = async (email, password) => {
   console.log("La función esta ejecutandose correctamente");
   alert("Cargando...");
-  const response = await fetch("http://localhost:8080/login/", {
+  const response = await fetch("http://localhost:8080/signup/", {
     method: "POST",
     body: JSON.stringify({ email: email, password: password }),
     headers: { "Content-Type": "application/json" },

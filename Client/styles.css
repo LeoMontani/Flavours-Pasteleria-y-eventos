@@ -13,15 +13,21 @@ html {
   height: auto;
 }
 .search-bar-container {
-  margin-top: 20px;
+  display: flex;
+  margin-top: 30px;
   margin-left: 20px;
   width: 25%;
 }
 .search-bar-container span {
+  display: inline-block;
   background-image: url(./Assets/Icons/search.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+  width: 14px;
+  height: 14px;
+  margin-right: 4px;
+  margin-bottom: 4px;
 }
 .title-container {
   margin-top: 20px;
@@ -41,6 +47,8 @@ html {
   width: 100px;
   border: 1px solid #141313;
   border-radius: 5px;
+  margin-bottom: 8px;
+  text-align: center;
 }
 .search-bar-container .facebook {
   margin-left: 10px;
@@ -51,4 +59,67 @@ html {
   margin-left: 6px;
   text-decoration: none;
   color: #000000;
+}
+.facebook img{
+  height: 22px;
+  width: 22px;
+}
+.instagram img {
+  height: 22px;
+  width: 22px;
+}
+.title-container {
+  font-family: "Exo 2", sans-serif;
+  font-size: 1.4rem;
+}
+.store-container {
+  margin-left: 120px;
+}
+.store-container a {
+  font-size: 1.4rem;
+  text-decoration: none;
+  color: #000000;
+}
+.store-container span {
+  display: inline-block;
+  background-image: url(./Assets/Icons/down-arrow.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 12px;
+  height: 12px;
+}
+.personal-container {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 20px;
+}
+.personal-container .signup-link {
+  font-size: 1.4rem;
+  text-decoration: none;
+}
+.personal-container .personal-link {
+  font-size: 1.4rem;
+  text-decoration: none;
+}
+.main-container {
+  width: 100%;
+  height: auto;
+  margin-top: 40px;
+}
+.products-main-container {
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+.products-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.products-container img{
+  width: 150px;
+  height: 150px;
+  margin-left: 20px;
 }
