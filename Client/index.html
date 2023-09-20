@@ -1,130 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Flavours</title>
-    <link rel="stylesheet" href="./styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&display=swap" rel="stylesheet">
-</head>
-<body>
-   <header>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
       <nav class="navbar-container">
-         <div class="search-bar-container">
-            <span></span>
-            <label for="Buscar">
-               <input type="text" placeholder="Buscar" class="search-bar">
-            </label>
-            <a href="https://www.facebook.com/flavours.pasteleriayeventos" target="_blank" class="facebook">
-               <img src="./Assets/Icons/facebook-logo.svg" alt="Facebook">
-            </a>
-            <a href="https://www.instagram.com/flavourspasteleriayeventos/" target="_blank" class="instagram"><img src="./Assets/Icons/instagram-logo.svg" alt="Instagram"></a>
-         </div>
+        <div class="search-bar-container">
+          <span></span>
+          <label for="Buscar">
+            <input type="text" placeholder="Buscar" class="search-bar" />
+          </label>
+          <a
+            href="https://www.facebook.com/flavours.pasteleriayeventos"
+            target="_blank"
+            class="facebook"
+          >
+            <img src="./Assets/Icons/facebook-logo.svg" alt="Facebook" />
+          </a>
+          <a
+            href="https://www.instagram.com/flavourspasteleriayeventos/"
+            target="_blank"
+            class="instagram"
+            ><img src="./Assets/Icons/instagram-logo.svg" alt="Instagram"
+          /></a>
+        </div>
 
-         <div class="title-container"> 
-            <h1>Flavours Pastelería y eventos</h1>
-         </div>
+        <div class="title-container">
+          <h1>Flavours Pastelería y eventos</h1>
+        </div>
 
-         <div class="store-container">
-            <a href="" class="tienda">Tienda <span></span></a>
-         </div>
+        <div class="store-container">
+          <a href="" class="tienda">Tienda <span></span></a>
+        </div>
 
-
-         <div class="personal-container">
-            <a href="/signup" target="_blank" class="signup-link">Registrarse</a>
-            <a href="" class="personal-link">Sobre Mi</a>
-            <span>Carrito de compras</span>
-         </div>
+        <div class="personal-container">
+          <a href="/signup" target="_blank" class="signup-link">Registrarse</a>
+          <a href="" class="personal-link">Sobre Mi</a>
+          <span>Carrito de compras</span>
+        </div>
       </nav>
-   </header>
+    </header>
 
-   <main class="main-container">
+    <main class="main-container">
       <section class="personal-info-container">
+        <div class="photo-container">
+          <figure>
+            <img src="" alt="Pastelera" />
+          </figure>
+        </div>
 
-         <div class="photo-container">
-            <figure>
-               <img src="" alt="Pastelera">
-            </figure>
-         </div>
-
-         <div class="info-container">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quas officiis odio nihil voluptas eveniet, eum quam eos molestiae ipsam a aut vitae corporis omnis maxime, expedita id ullam molestias.</p>
-         </div>
-
+        <div class="info-container">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quas
+            officiis odio nihil voluptas eveniet, eum quam eos molestiae ipsam a
+            aut vitae corporis omnis maxime, expedita id ullam molestias.
+          </p>
+        </div>
       </section>
 
       <section class="products-main-container">
-         <article class="products-container">
-         <div>
+        <article class="products-container">
+          <div class="products-container__product">
             <figure>
-               <img src="./Assets/Pics/Brownie.jpeg" alt="Brownie">
+              <img src="./Assets/Pics/Brownie.jpeg" alt="Brownie" />
             </figure>
-            
-            <a href="">Producto 1</a>
-            <p>$2000</p>
-            
-            <button>Comprar</button>
-         </div>
+            <div class="price-container">
+              <a href="">Producto 1</a>
+              <p>$2000</p>
 
-         <div>
+              <button>Comprar</button>
+            </div>
+          </div>
+
+          <div class="products-container__product">
             <figure>
-               <img src="./Assets/Pics/Tarta.jpeg" alt="Tarta">
-            </figure>
-            
-            <a href="">Producto 2</a>
-            <p>$2000</p>
-            
-            <button>Comprar</button>
-         </div>
-         
-         <div>
-            <figure>
-               <img src="./Assets/Pics/Torta.jpeg" alt="Torta">
-            </figure>
-            
-            <a href="">Producto 3</a>
-            <p>$2000</p>
-            
-            <button>Comprar</button>
-         </div>
-         
-         <div>
-            <figure>
-               <img src="./Assets/Pics/Mini-pasteleria-personalizada.jpeg" alt="Mini Pastelería">
+              <img src="./Assets/Pics/Tarta.jpeg" alt="Tarta" />
             </figure>
 
-            <a href="">Producto 4</a>
-            <p>$2000</p>
-            
-            <button>Comprar</button>
-         </div>
-         
-         <!-- <div>
+            <div class="price-container">
+              <a href="">Producto 2</a>
+              <p>$2000</p>
+
+              <button>Comprar</button>
+            </div>
+          </div>
+
+          <div class="products-container__product">
+            <figure>
+              <img src="./Assets/Pics/Torta.jpeg" alt="Torta" />
+            </figure>
+
+            <div class="price-container">
+              <a href="">Producto 3</a>
+              <p>$2000</p>
+
+              <button>Comprar</button>
+            </div>
+          </div>
+
+          <div class="products-container__product">
+            <figure>
+              <img
+                src="./Assets/Pics/Mini-pasteleria-personalizada.jpeg"
+                alt="Mini Pastelería"
+              />
+            </figure>
+
+            <div class="price-container">
+              <a href="">Producto 4</a>
+              <p>$2000</p>
+
+              <button>Comprar</button>
+            </div>
+          </div>
+
+          <!-- <div class="products-container__product">
             <figure>
                <img src="" alt="">
             </figure>
             
-            <a href="">Producto 5/a>
-               <p>$2000</p>
-               
-               <button>Comprar</button>
+            <div class="price-container">
+              <a href="">Producto 5</a>
+              <p>$2000</p>
+
+              <button>Comprar</button>
+            </div>
             </div>
             
-            <div>
+            <div class="products-container__product">
                <figure>
                   <img src="" alt="">
                </figure>
                
-               <a href="">Producto 6</a>
-               <p>$2000</p>
-               
-               <button>Comprar</button>
+               <div class="price-container">
+              <a href="">Producto 6</a>
+              <p>$2000</p>
+
+              <button>Comprar</button>
+            </div>
             </div> -->
-            
-         </article>
-         </section>
+        </article>
+      </section>
       <!-- <section class="new-products-container">
 
          <div>
@@ -149,61 +175,42 @@
             <button>Comprar</button>
          </div>
       </section> -->
+    </main>
 
-
-   </main>
-
-   <footer class="footer-container">
-
+    <footer class="footer-container">
       <section class="socials-container">
-         <div>
-            <h3></h3>
-            <a href=""></a><a href=""></a>
-         </div>
+        <div>
+          <h3></h3>
+          <a href=""></a><a href=""></a>
+        </div>
       </section>
 
       <section class="footer-products-container">
-         <div>
-            <h3></h3>
+        <div>
+          <h3></h3>
 
-            <a href="">
-              footer 1
-            </a>
+          <a href=""> footer 1 </a>
 
-            <a href="">
-               footer 2
-            </a>
+          <a href=""> footer 2 </a>
 
-            <a href="">
-               footer 3
-            </a>
+          <a href=""> footer 3 </a>
 
-            <a href="">
-               footer 4
-            </a>
-         </div>
+          <a href=""> footer 4 </a>
+        </div>
       </section>
       <section class="contact-container">
-         <div>
-            <a href="">
+        <div>
+          <a href=""> </a>
 
-            </a>
+          <a href=""> </a>
 
-            <a href="">
+          <a href=""> </a>
 
-            </a>
-
-            <a href="">
-
-            </a>
-
-            <a href="">
-
-            </a>
-         </div>
+          <a href=""> </a>
+        </div>
       </section>
-   </footer>
+    </footer>
 
-   <script src="../index.js"></script>
-</body>
+    <script src="../index.js"></script>
+  </body>
 </html>
