@@ -1,40 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Inicio de Sesión</title>
-  <link rel="stylesheet" href="./signup.css">
-</head>
-<body>
-  <div class="signup">
-    <div class="form-container">
-        <img src="../Assets/Icons/email.png" alt="logo" class="logo">
-        
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inicio de Sesión</title>
+    <link rel="stylesheet" href="./signup.css" />
+  </head>
+  <body>
+    <div class="signup">
+      <div class="form-container">
+        <img src="../Assets/Icons/email.png" alt="logo" class="logo" />
+
         <form id="signup-form" class="form">
-          <label for="email" 
-          class="label">Dirección de email</label>
-          <input type="text" 
-          name="email" 
-          placeholder="ejemplo@email.com" 
-          class="input input-email">
+          <label for="email" class="label">Dirección de email</label>
+          <input
+            type="text"
+            name="email"
+            placeholder="ejemplo@email.com"
+            class="input input-email"
+          />
 
-          <label for="contraseña" 
-          class="label">Contraseña</label>
-          <input type="password" name="contraseña"
-          placeholder="********" 
-          class="input input-password">
+          <label for="contraseña" class="label">Contraseña</label>
+          <input
+            type="password"
+            name="contraseña"
+            placeholder="********"
+            class="input input-password"
+          />
 
-          <input type="submit" 
-          value="Registrarse"
-          class="primary-button signup-button">
-          <a href="">Forgot my password</a>
+          <input
+            type="submit"
+            value="Registrarse"
+            class="primary-button signup-button"
+          />
         </form>
-        
-        <button class="secondary-button signup-button">Registrarse</button>
+      </div>
     </div>
-  </div>
 
-  <script src="./signup.js"></script>
-</body>
+    <script src="./signup.js"></script>
+  </body>
 </html>
